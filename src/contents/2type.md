@@ -11,6 +11,7 @@ tags:
   - en
 description: Uncovering how different types of engineers approach non-technical challenges and the importance of embracing the human factor in software development.
 ---
+
 I came across an [article](https://registerspill.thorstenball.com/p/two-types-of-software-engineers) where the author highlights two types of software developers:
 
 🅰️ Type 1: Believes that if a problem isn't technical, it's easy to solve just by asking people to do something. They have faith in Engineering with a capital E, where there is mathematics, physics, and applied science.
