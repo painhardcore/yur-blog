@@ -4,7 +4,7 @@ export const SITE = {
   website: "https://yurchenkov.ru",
   author: "Andrey Yurchenkov",
   desc: "Blog about web development and other stuff",
-  title: "Andrey Yurchenkov",
+  title: "Meme-Driven-Development",
   ogImage: "astropaper-og.jpg",
   lightAndDarkMode: true,
   postPerPage: 5,

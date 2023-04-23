@@ -9,7 +9,6 @@ tags:
   - team
   - engineering
   - en
-ogImage: ""
 description: Uncovering how different types of engineers approach non-technical challenges and the importance of embracing the human factor in software development.
 ---
 I came across an [article](https://registerspill.thorstenball.com/p/two-types-of-software-engineers) where the author highlights two types of software developers:
