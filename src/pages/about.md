@@ -10,7 +10,7 @@ My name is Andrey Yurchenkov, I live in France and passionate about software dev
 
 ## Social
 Own:
-- [Personal tg blog](https://t.me/space_tag)
+- [Personal tg blog](https://t.me/hot_take)
 - [Meme tg channel](https://t.me/code500)
 - [Ziglang tg chat](https://t.me/ziglang_en)
 
