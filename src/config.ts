@@ -121,7 +121,7 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Telegram",
-    href: "https://t.me/space_tag",
+    href: "https://t.me/hot_take",
     linkTitle: `${SITE.title} on Telegram`,
     active: true,
   },
