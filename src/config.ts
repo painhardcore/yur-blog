@@ -1,13 +1,16 @@
-import type { SocialObjects } from "./types";
+import type { Site, SocialObjects } from "./types";
 
-export const SITE = {
-  website: "https://yurchenkov.ru",
+export const SITE: Site = {
+  website: "https://yurchenkov.ru", // replace this with your deployed domain
   author: "Andrey Yurchenkov",
   desc: "Blog about web development and other stuff",
   title: "Meme-Driven-Development",
+  ogImage: "yur-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 5,
+  postPerPage: 3,
 };
+
+export const LOCALE = ["en-EN"]; // set to [] to use the environment default
 
 export const LOGO_IMAGE = {
   enable: false,
@@ -24,8 +27,14 @@ export const SOCIALS: SocialObjects = [
     active: true,
   },
   {
+    name: "Facebook",
+    href: "https://github.com/satnaing/astro-paper",
+    linkTitle: `${SITE.title} on Facebook`,
+    active: false,
+  },
+  {
     name: "Instagram",
-    href: "",
+    href: "https://github.com/satnaing/astro-paper",
     linkTitle: `${SITE.title} on Instagram`,
     active: false,
   },
@@ -37,9 +46,9 @@ export const SOCIALS: SocialObjects = [
   },
   {
     name: "Mail",
-    href: "mailto:yourmail@gmail.com",
+    href: "mailto:job@yurchenkov.ru",
     linkTitle: `Send an email to ${SITE.title}`,
-    active: false,
+    active: true,
   },
   {
     name: "Twitter",

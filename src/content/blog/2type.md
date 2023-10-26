@@ -1,8 +1,8 @@
 ---
 title: Two types of software engineers
 author: Andrey Yurchenkov
-datetime: 2023-04-24T00:17:19Z
-slug: two-types-of-software-engineers
+pubDatetime: 2023-04-24T00:17:19Z
+postSlug: two-types-of-software-engineers
 featured: false
 draft: false
 tags:

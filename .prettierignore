@@ -3,10 +3,11 @@
 
 # Except these files & folders
 !/src
-/public
+!/public
 !/.github
 !tsconfig.json
-!astro.config.mjs
+!astro.config.ts
 !package.json
 !.prettierrc
-!.eslintrc.json
+!.eslintrc.js
+!README.md

@@ -14,6 +14,7 @@ This theme is self-documented \_ which means articles/posts in this theme can al
 
 ## 🔥 Features
 
+- [x] type-safe markdown
 - [x] super fast performance
 - [x] accessible (Keyboard/VoiceOver)
 - [x] responsive (mobile ~ desktops)
@@ -27,6 +28,14 @@ This theme is self-documented \_ which means articles/posts in this theme can al
 - [x] dynamic OG image generation for blog posts [#15](https://github.com/satnaing/astro-paper/pull/15) ([Blog Post](https://astro-paper.pages.dev/posts/dynamic-og-image-generation-in-astropaper-blog-posts/))
 
 _Note: I've tested screen-reader accessibility of AstroPaper using **VoiceOver** on Mac and **TalkBack** on Android. I couldn't test all other screen-readers out there. However, accessibility enhancements in AstroPaper should be working fine on others as well._
+
+## ✅ Lighthouse Score
+
+<p align="center">
+  <a href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fastro-paper.pages.dev%2F&form_factor=desktop">
+    <img width="710" alt="AstroPaper Lighthouse Score" src="AstroPaper-lighthouse-score.svg">
+  <a>
+</p>
 
 ## 🚀 Project Structure
 
@@ -46,8 +55,10 @@ Inside of AstroPaper, you'll see the following folders and files:
 │   ├── assets/
 │   │   └── socialIcons.ts
 │   ├── components/
-│   ├── contents/
-│   │   └── some-blog-posts.md
+│   ├── content/
+│   │   |  blog/
+│   │   |    └── some-blog-posts.md
+│   │   └── config.ts
 │   ├── layouts/
 │   └── pages/
 │   └── styles/
@@ -61,16 +72,18 @@ Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page
 
 Any static assets, like images, can be placed in the `public/` directory.
 
-All blog posts are stored in `src/contents/` directory.
+All blog posts are stored in `src/content/blog` directory.
 
 ## 📖 Documentation
 
 Documentation can be read in two formats\_ _markdown_ & _blog post_.
 
-- Configuration - [markdown](src/contents/how-to-configure-astropaper-theme.md) | [blog post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
-- Add Posts - [markdown](src/contents/adding-new-post.md) | [blog post](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
-- Customize Color Schemes - [markdown](src/contents/customizing-astropaper-theme-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
-- Predefined Color Schemes - [markdown](src/contents/predefined-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
+- Configuration - [markdown](src/content/blog/how-to-configure-astropaper-theme.md) | [blog post](https://astro-paper.pages.dev/posts/how-to-configure-astropaper-theme/)
+- Add Posts - [markdown](src/content/blog/adding-new-post.md) | [blog post](https://astro-paper.pages.dev/posts/adding-new-posts-in-astropaper-theme/)
+- Customize Color Schemes - [markdown](src/content/blog/customizing-astropaper-theme-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/customizing-astropaper-theme-color-schemes/)
+- Predefined Color Schemes - [markdown](src/content/blog/predefined-color-schemes.md) | [blog post](https://astro-paper.pages.dev/posts/predefined-color-schemes/)
+
+> For AstroPaper v1, check out [this branch](https://github.com/satnaing/astro-paper/tree/astro-paper-v1) and this [live URL](https://astro-paper-v1.astro-paper.pages.dev/)
 
 ## 💻 Tech Stack
 
@@ -83,7 +96,8 @@ Documentation can be read in two formats\_ _markdown_ & _blog post_.
 **Icons** - [Boxicons](https://boxicons.com/) | [Tablers](https://tabler-icons.io/)  
 **Code Formatting** - [Prettier](https://prettier.io/)  
 **Deployment** - [Cloudflare Pages](https://pages.cloudflare.com/)  
-**Illustration in About Page** - [https://freesvgillustration.com](https://freesvgillustration.com/)
+**Illustration in About Page** - [https://freesvgillustration.com](https://freesvgillustration.com/)  
+**Linting** - [ESLint](https://eslint.org)
 
 ## 👨🏻‍💻 Running Locally
 
@@ -113,17 +127,19 @@ PUBLIC_GOOGLE_SITE_VERIFICATION=your-google-site-verification-value
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                | Action                                             |
-| :--------------------- | :------------------------------------------------- |
-| `npm install`          | Installs dependencies                              |
-| `npm run dev`          | Starts local dev server at `localhost:3000`        |
-| `npm run build`        | Build your production site to `./dist/`            |
-| `npm run preview`      | Preview your build locally, before deploying       |
-| `npm run format:check` | Check code format with Prettier                    |
-| `npm run format`       | Format codes with Prettier                         |
-| `npm run cz`           | Commit code changes with commitizen                |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
-| `npm run astro --help` | Get help using the Astro CLI                       |
+| Command                | Action                                                                                                                           |
+| :--------------------- | :------------------------------------------------------------------------------------------------------------------------------- |
+| `npm install`          | Installs dependencies                                                                                                            |
+| `npm run dev`          | Starts local dev server at `localhost:4321`                                                                                      |
+| `npm run build`        | Build your production site to `./dist/`                                                                                          |
+| `npm run preview`      | Preview your build locally, before deploying                                                                                     |
+| `npm run format:check` | Check code format with Prettier                                                                                                  |
+| `npm run format`       | Format codes with Prettier                                                                                                       |
+| `npm run sync`         | Generates TypeScript types for all Astro modules. [Learn more](https://docs.astro.build/en/reference/cli-reference/#astro-sync). |
+| `npm run cz`           | Commit code changes with commitizen                                                                                              |
+| `npm run lint`         | Lint with ESLint                                                                                                                 |
+
+> Warning! Windows PowerShell users may need to install the [concurrently package](https://www.npmjs.com/package/concurrently) if they want to [run diagnostics](https://docs.astro.build/en/reference/cli-reference/#astro-check) during development (`astro check --watch & astro dev`). For more info, see [this issue](https://github.com/satnaing/astro-paper/issues/113).
 
 ## ✨ Feedback & Suggestions
 
@@ -131,8 +147,8 @@ If you have any suggestions/feedback, you can contact me via [my email](mailto:c
 
 ## 📜 License
 
-Licensed under the MIT License, Copyright © 2022
+Licensed under the MIT License, Copyright © 2023
 
 ---
 
-Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻
+Made with 🤍 by [Sat Naing](https://satnaing.dev) 👨🏻‍💻 and [contributors](https://github.com/satnaing/astro-paper/graphs/contributors).
