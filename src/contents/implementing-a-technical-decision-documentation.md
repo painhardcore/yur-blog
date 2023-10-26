@@ -24,7 +24,7 @@ If you answered "yes" to any of these questions, then this article is for you. H
 
 ## Motivation and Historical Context Behind Adopting This Documentation System
 
-![Alt text](../../public/assets/tdd/tired.png)
+![Alt text](/assets/tdd/tired.png)
 Joining a new team or company often brings up questions about existing systems and practices. The frequent queries of “Why is it done this way?” or “Why was this approach chosen?” usually meet the response, “That’s how it’s always been.” This prevalent scenario underscores the need for a structured documentation system for technical decisions:
 
 - **Transparency Across Teams**: With diverse teams working on different project facets, a centralized documentation system reduces redundancy and promotes synergy by ensuring everyone's alignment.
@@ -85,7 +85,7 @@ Remember, the key is to select a platform that aligns with your team's needs and
 
 ## An Overview of Essential Technical Documents
 
-![Alt text](../../public/assets/tdd/happy.png)
+![Alt text](/assets/tdd/happy.png)
 In the realm of software engineering and system design, documentation plays an invaluable role in navigating complexities and ensuring clarity for all stakeholders. This section delineates the primary types of documents and their specific purposes:
 
 1. **RFC (Request for Comments)**:
@@ -108,7 +108,7 @@ In the realm of software engineering and system design, documentation plays an i
 
 ## Organizing Documents Inside a Repository
 
-![How everything well organized](../../public/assets/tdd/organize.png)
+![How everything well organized](/assets/tdd/organize.png)
 If you've chosen GitHub as your platform, there's a temptation to embed this documentation directly into your current code repository. But should you?
 
 ### Why Not to Use the Same Repository for Development and Technical Documentation:
@@ -144,7 +144,7 @@ When it comes to naming your documents, there are various approaches one can tak
 
 ## Challenges and Solutions in Documentation Implementation
 
-![Alt text](../../public/assets/tdd/bund.png)
+![Alt text](/assets/tdd/bund.png)
 
 ### 1. Resistance to Change
 
