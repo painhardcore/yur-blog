@@ -16,6 +16,8 @@ description: Unlock seamless collaboration and clarity in your tech projects wit
 
 # Implementing a Technical Decision Documentation
 
+## Table of contents
+
 ## Introduction
 
 Have you ever joined a new company and found yourself asking questions like, "Why do we use this database?", "Why did we choose this particular approach or technology?" How often were you met with answers like, "It's just how things evolved", or even worse, "Dave decided on it, and he's really smart!"? How many times have you noticed different teams in the company, unbeknownst to each other, working on the same issue but from different angles? Or perhaps, you once wanted to introduce something new to the workflow, but simply didn't know how and where to propose it?
