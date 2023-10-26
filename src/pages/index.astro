@@ -42,18 +42,25 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         </svg>
       </a>
       <p>
-        I'm Andrey Yurchenkov, a Russian-born software engineer living in France. I specialize in backend development of very high loaded distributed systems, especially with Golang. On this blog, I'll share my thoughts and experiences in the tech world and about my life in general.      
+        I'm Andrey Yurchenkov, a Russian-born software engineer living in
+        France. I specialize in backend development of very high loaded
+        distributed systems, especially with Golang. On this blog, I'll share my
+        thoughts and experiences in the tech world and about my life in general.
       </p>
       <p>
-        In my free time, I run a 
+        In my free time, I run a
         <LinkButton
           className="hover:text-skin-accent underline underline-offset-4 decoration-dashed"
           href="https://t.me/code500"
         >
           meme channel on Telegram
-        </LinkButton> 
+        </LinkButton>
       </p>
-      <p>All job related opportunities please send to <a href="mailto:job@yurchenkov.ru">job@yurchenkov.ru</a></p>
+      <p>
+        All job related opportunities please send to <a
+          href="mailto:job@yurchenkov.ru">job@yurchenkov.ru</a
+        >
+      </p>
       {
         // only display if at least one social link is enabled
         socialCount > 0 && (
