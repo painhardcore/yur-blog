@@ -57,7 +57,7 @@ By documenting the thought process behind technical decisions, teams not only pr
 
 ## Choosing a Platform for Document Location: Why GitHub?
 
-![Are you sure answer is here](../assets/tdd/are-y-sure-answer-here.png)
+![Are you sure answer is here](/assets/tdd/are-y-sure-answer-here.png)
 While the exact location of where all these documents are stored might not seem crucial, the choice of platform can significantly influence the efficiency of your documentation process. Here's why GitHub might be an ideal choice:``
 
 - **Integration with Development**:
