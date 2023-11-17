@@ -18,7 +18,7 @@ description: Embark on a journey to create a streamlined habit-tracking Telegram
 
 ## HabitPulse. Part 1
 
-- [Part1](habitpulse-part2)
+- [Part2](habitpulse-part2)
 - [Part3](habitpulse-part3)
 
 ### Introduction
