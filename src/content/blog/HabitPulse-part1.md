@@ -1,7 +1,7 @@
 ---
 title: "HabitPulse: Building a Habit-Tracking Telegram Bot with Golang and InfluxDB. Part 1"
 author: Andrey Yurchenkov
-pubDatetime: 2024-10-27T00:00:00Z
+pubDatetime: 2023-10-27T00:00:00Z
 postSlug: habitpulse-part1
 featured: false
 draft: false
@@ -17,6 +17,9 @@ description: Embark on a journey to create a streamlined habit-tracking Telegram
 ---
 
 ## HabitPulse. Part 1
+
+- [Part1](habitpulse-part2)
+- [Part3](habitpulse-part3)
 
 ### Introduction
 
