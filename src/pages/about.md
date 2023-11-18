@@ -7,15 +7,15 @@ title: "About"
   <img src="/assets/harold.webp"  class="sm:w-1/2 mx-auto" alt="coding dev illustration">
 </div>
 
-My name is Andrey Yurchenkov, I live in France and passionate about software developement and memes. So far that's everythingn you should know.
+My name is Andrey Yurchenkov, I live in France and am passionate about software development and memes. So far, that's everything you should know.
 
 ## Social
 
 Own:
 
-- [Personal tg blog](https://t.me/hot_take)
-- [Meme tg channel](https://t.me/code500)
-- [Ziglang tg chat](https://t.me/ziglang_en)
+- [Personal Telegram blog](https://t.me/hot_take)
+- [Meme Telegram channel](https://t.me/code500)
+- [Ziglang Telegram chat](https://t.me/ziglang_en)
 
 Sometimes I write something on my [Medium](https://medium.com/@painhardcore)
 
@@ -24,12 +24,13 @@ Sometimes I write something on my [Medium](https://medium.com/@painhardcore)
 I'm trying to keep the list of my main tools pretty short:
 
 - Go
+- SQLite
 - PostgreSQL
-- Promotheus
+- Prometheus
 - Redis
 - Kafka
 
-But if it's not enough for you - this is my extended list what I've used:
+If you're interested in more, here's an extended list of technologies I've used:
 
 - Python
 - Docker
