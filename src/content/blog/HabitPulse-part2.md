@@ -131,7 +131,7 @@ Replace YOUR_TELEGRAM_BOT_TOKEN , YOUR_INFLUXDB_TOKEN, YOUR_ORG, YOUR_BUCKET wit
 
 > Important: For security reasons, never store sensitive information like tokens directly in your source code. In a real-world application, you'd ideally fetch these values from environment variables, a secrets manager, or an external configuration. For this demonstration and initial setup, we're using hardcoded values, but remember that these tokens can be regenerated if exposed.
 
-6. Verify Bot and Data in InfluxDB
+### 6. Verify Bot and Data in InfluxDB
 
 Simply run the program:
 
