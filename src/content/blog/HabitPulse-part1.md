@@ -12,13 +12,12 @@ tags:
   - influxdb
   - telegram
   - habitpulse
-  - part1
 description: Embark on a journey to create a streamlined habit-tracking Telegram bot with Golang and InfluxDB. This article breaks down the design choices, from the simplicity of Telegram's interface to the power of time-series data, setting the stage for a hands-on coding adventure in subsequent pieces.
 ---
 
 ## HabitPulse. Part 1
 
-- [Part2](habitpulse-part2) (coming soon)
+- [Part2](habitpulse-part2)
 - [Part3](habitpulse-part3) (coming soon)
 
 ### Introduction
