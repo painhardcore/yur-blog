@@ -17,8 +17,8 @@ description: This is a needed step to prepare our environment for the developmen
 
 ## HabitPulse. Part 2
 
-- [Part1](habitpulse-part1)
-- [Part3](habitpulse-part3) (coming soon)
+- [Part1](/posts/habitpulse-part1)
+- [Part3](/posts/habitpulse-part3) (coming soon)
 
 ### Introduction
 
